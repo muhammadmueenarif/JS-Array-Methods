@@ -28,8 +28,16 @@
 // splice method. delete item at given index, give us back the deleted item, and insert new item at that index. 
 // it can remove multiple items on index(start, and end).
 
-const animals =['hen', 'cock', 'parrot', 'lion', 'cat', 'dog'];
-const deletedanimal= animals.splice(0,1, 'Dog');
-console.log("animals are:", animals);
-console.log('deleted animals are:', deletedanimal);
+// const animals =['hen', 'cock', 'parrot', 'lion', 'cat', 'dog'];
+// const deletedanimal= animals.splice(0,1, 'Dog');
+// console.log("animals are:", animals);
+// console.log('deleted animals are:', deletedanimal);
+
+
+// slice method. it gives us copy of array that we want. we can get specific index values from array also.
+// if we do not specify, it will gives complete array. 
+const fruits =['apple','banana', 'mango', 'orange', 'peach'];
+console.log("fruits are:", fruits);
+const newfruits= fruits.slice(0,2);
+console.log('new fruits are:', newfruits);
 

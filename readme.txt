@@ -16,3 +16,6 @@ next is unshift method. it gives us to option to put item in array. it inserts n
 5 is splice method. it can remove the item on specific index that we will give and then it can also give back that 
 deleted item and it will also insert new item at that index. we can delete multiple items start and end index.
 
+6 is slice method. it gives us copy of the array that we want. we can get specific index values from array also. like start from 
+index 0 and total 3 values of array. array.slice(0,3). if we do not specify, it will gives complete array. 
+
