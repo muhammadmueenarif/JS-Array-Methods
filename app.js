@@ -35,9 +35,18 @@
 
 
 // slice method. it gives us copy of array that we want. we can get specific index values from array also.
-// if we do not specify, it will gives complete array. 
-const fruits =['apple','banana', 'mango', 'orange', 'peach'];
-console.log("fruits are:", fruits);
-const newfruits= fruits.slice(0,2);
-console.log('new fruits are:', newfruits);
+// // if we do not specify, it will gives complete array. 
+// const fruits =['apple','banana', 'mango', 'orange', 'peach'];
+// console.log("fruits are:", fruits);
+// const newfruits= fruits.slice(0,2);
+// console.log('new fruits are:', newfruits);
+
+
+// concat method. if we want to combine two arrays, it will combine them in single array.
+
+const boys=['ali', 'ahmad', 'hassan'];
+const girls= ['asma', 'farwa', 'hadia', 'shaista'];
+const users= boys.concat(girls);
+console.log("users are:", users);
+
 

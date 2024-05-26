@@ -19,3 +19,5 @@ deleted item and it will also insert new item at that index. we can delete multi
 6 is slice method. it gives us copy of the array that we want. we can get specific index values from array also. like start from 
 index 0 and total 3 values of array. array.slice(0,3). if we do not specify, it will gives complete array. 
 
+7 is concat method. it will combine two arrays into one. like combine arrays of boys and girls.
+
