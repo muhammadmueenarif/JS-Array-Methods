@@ -21,3 +21,6 @@ index 0 and total 3 values of array. array.slice(0,3). if we do not specify, it 
 
 7 is concat method. it will combine two arrays into one. like combine arrays of boys and girls.
 
+Now, the next methods will be for loops.
+foreach method. it is like for loop. it performs action for each item of the array.
+take example. if we have array of users with their name and age, we can get age of users by users.foreach(user) {console.log(users.age);} 

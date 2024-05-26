@@ -44,9 +44,20 @@
 
 // concat method. if we want to combine two arrays, it will combine them in single array.
 
-const boys=['ali', 'ahmad', 'hassan'];
-const girls= ['asma', 'farwa', 'hadia', 'shaista'];
-const users= boys.concat(girls);
-console.log("users are:", users);
+// const boys=['ali', 'ahmad', 'hassan'];
+// const girls= ['asma', 'farwa', 'hadia', 'shaista'];
+// const users= boys.concat(girls);
+// console.log("users are:", users);
 
 
+
+// the next methods are for loops.
+// forEach(); it is like for loop. if we have users with names and age, we can use it to get age of users from array. 
+
+const users = [{name:"john", age:"23"},
+ {name: "jack", age:"22"}, 
+ {name:"william", age:"25"} ];
+
+ users.forEach((users)=> {
+console.log(users.name, ":", users.age, "years");
+ })
