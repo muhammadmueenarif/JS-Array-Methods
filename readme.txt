@@ -12,3 +12,7 @@ all other elements are shifted one place behind. it can give us the deleted elem
 we can delete specific element by splice or filter method. 
 
 next is unshift method. it gives us to option to put item in array. it inserts new element at the start of array. 
+
+5 is splice method. it can remove the item on specific index that we will give and then it can also give back that 
+deleted item and it will also insert new item at that index. we can delete multiple items start and end index.
+

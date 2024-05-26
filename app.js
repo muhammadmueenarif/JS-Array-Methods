@@ -20,6 +20,16 @@
 
 
 // unshift method. it gives us to option to put item in array. it inserts new element at the start of array. 
-const vehicles =['cars', 'buses', 'bikes', 'cycles', 'truck'];
-vehicles.unshift('Shehzore');
-console.log("The vehicles are:", vehicles);
+// const vehicles =['cars', 'buses', 'bikes', 'cycles', 'truck'];
+// vehicles.unshift('Shehzore');
+// console.log("The vehicles are:", vehicles);
+
+
+// splice method. delete item at given index, give us back the deleted item, and insert new item at that index. 
+// it can remove multiple items on index(start, and end).
+
+const animals =['hen', 'cock', 'parrot', 'lion', 'cat', 'dog'];
+const deletedanimal= animals.splice(0,1, 'Dog');
+console.log("animals are:", animals);
+console.log('deleted animals are:', deletedanimal);
+
