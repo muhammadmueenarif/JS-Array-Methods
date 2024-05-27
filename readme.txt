@@ -66,3 +66,8 @@ next is reverse method. it reverses the array. it changes the given array and st
 
 join method. it gives an option to use array as string. by default it separates with , but we can use anyother 
 symbol like - to separate by providing it in the join().
+
+last is reduce function. it will do calculation for us. for example we have array and we want to take sum of all. 
+we can use newa= numbers.reduce((a,b)=> a+b);
+console.log(newa); it will give sum of all numbers. we can do any calculation on array not only sum. 
+

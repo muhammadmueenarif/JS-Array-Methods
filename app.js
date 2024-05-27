@@ -123,8 +123,14 @@
 
 // join method. we can use array as a string. by default it separates with , but we can use any symbol like -
 // inside join() to separate.
-const animals=['cat', 'dog', 'lion', 'leapord', 'horse'];
-console.log('array is:', animals);
+// const animals=['cat', 'dog', 'lion', 'leapord', 'horse'];
+// console.log('array is:', animals);
 
-var arrasstring= animals.join('-');
-console.log('array as string is:', arrasstring);
+// var arrasstring= animals.join('-');
+// console.log('array as string is:', arrasstring);
+
+
+// reduce function. it can do calculation for us. we can do any calculation. 
+const numbers= [10,20,30,40,50];
+const sum= numbers.reduce((a,b)=> a+b);
+console.log('the calculation is:', sum);
