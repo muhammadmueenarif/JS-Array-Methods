@@ -113,10 +113,18 @@
 // console.log('sorted students are:', students);
 
 
-// reverse method. it reverse the given array. updates the given array and returns and store new reversed array.
-const array=[{hen:'bird', color:'black'}, {parrot:'bird', color:'green'}, {cat:'animal', color:'white'},
-{peacock:'bird', color:'white'},{dog:'animal', color:'black and white'}];
-console.log('array is:', array);
-var newarray= array.reverse(array);
-console.log('new array is:', newarray);
+ // reverse method. it reverse the given array. updates the given array and returns and store new reversed array.
+// const array=[{hen:'bird', color:'black'}, {parrot:'bird', color:'green'}, {cat:'animal', color:'white'},
+// {peacock:'bird', color:'white'},{dog:'animal', color:'black and white'}];
+// console.log('array is:', array);
+// var newarray= array.reverse(array);
+// console.log('new array is:', newarray);
 
+
+// join method. we can use array as a string. by default it separates with , but we can use any symbol like -
+// inside join() to separate.
+const animals=['cat', 'dog', 'lion', 'leapord', 'horse'];
+console.log('array is:', animals);
+
+var arrasstring= animals.join('-');
+console.log('array as string is:', arrasstring);

@@ -64,5 +64,5 @@ console.log('sorted students are:', students);
 
 next is reverse method. it reverses the array. it changes the given array and store new reversed array.
 
-
-
+join method. it gives an option to use array as string. by default it separates with , but we can use anyother 
+symbol like - to separate by providing it in the join().
