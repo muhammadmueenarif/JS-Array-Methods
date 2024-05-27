@@ -71,3 +71,12 @@ last is reduce function. it will do calculation for us. for example we have arra
 we can use newa= numbers.reduce((a,b)=> a+b);
 console.log(newa); it will give sum of all numbers. we can do any calculation on array not only sum. 
 
+basic syntax : array.reduce((accumulator, currentValue) => {
+    // return updated accumulator
+}, initialValue);
+
+example: let numbers = [1, 2, 3, 4, 5];
+let sum = numbers.reduce((a, b) => a + b, 0);
+console.log(sum); // Output: 15
+
+similarly we can check multiply, find max numbers, and count iteration of each number is array. 
