@@ -63,7 +63,7 @@
 //  })
 
 
-// find method. it will search in array and find desired item according to our condition.
+// find method. it will search in array and give first element that fulfills condition.
 // const male= [{name:'ali', age:20}, {name:'ahsan', age:'24'}, {name:'furqan', age:'22'}, {name:'mana', age:'25'}, 
 // {name:'zulqarnain', age:'29'}];
 // var newmale= male.find(male=> male.age==20);
@@ -72,9 +72,17 @@
 
 
 // filter method. it filters elements from array based on condition.
-const people= [{name:'jan', age:'10'}, {name:'micheal', age:'18'}, {name:'jack', age:'20'}, 
-{name:'david', age:'18'},]
+// const people= [{name:'jan', age:'10'}, {name:'micheal', age:'18'}, {name:'jack', age:'20'}, 
+// {name:'david', age:'18'},]
 
-var newpeople= people.filter(people=> people.age!=18);
-console.log("people are:", newpeople);
+// var newpeople= people.filter(people=> people.age!=18);
+// console.log("people are:", newpeople);
 
+
+// map method. it will create exact copy of array. we can pass array, index and get complete array output or conditional output.
+
+const array= [{name:'ali', class:'1'}, {name:'ahsan', class:'2'},{name:'kashan', class:'3'},
+{name:'abdullah', class:'3'},{name:'hamza', class:'3'},{name:'raza', class:'2'}];
+console.log('array is:', array);
+const newarray= array.map((array, index) => index);
+console.log("new array is:", newarray);

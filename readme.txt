@@ -25,11 +25,14 @@ Now, the next methods will be for loops.
 foreach method. it is like for loop. it performs action for each item of the array.
 take example. if we have array of users with their name and age, we can get age of users by users.foreach(user) {console.log(users.age);} 
 
-2 loop method is find method. it will search for each element in array and find the element that we need. 
+2 loop method is find method. it will search for each element in array and find the element that we need based on condition. 
+it will return only first element. if there are multiple, it will return only first element. 
 for example find person from array with age 20. 
 
 Next is filter method. it will filter items from array according to condition. it is mostly used in js. 
+it does not gives only first element but gives all the matching elements.  
 search bar in website use filter method. we can filter items of specific type like age=22 and then delete these filtered items. 
 
 
-
+Map method. it will loop in each item of array just like foreach. we can create exact copy of array with its help. 
+we can also pass index with array like array.map(arrayname, index)
