@@ -54,10 +54,18 @@
 // the next methods are for loops.
 // forEach(); it is like for loop. if we have users with names and age, we can use it to get age of users from array. 
 
-const users = [{name:"john", age:"23"},
- {name: "jack", age:"22"}, 
- {name:"william", age:"25"} ];
+// const users = [{name:"john", age:"23"},
+//  {name: "jack", age:"22"}, 
+//  {name:"william", age:"25"} ];
 
- users.forEach((users)=> {
-console.log(users.name, ":", users.age, "years");
- })
+//  users.forEach((users)=> {
+// console.log(users.name, ":", users.age, "years");
+//  })
+
+
+// find method. it will search in array and find desired item according to our condition.
+const male= [{name:'ali', age:20}, {name:'ahsan', age:'24'}, {name:'furqan', age:'22'}, {name:'mana', age:'25'}, 
+{name:'zulqarnain', age:'29'}];
+var newmale= male.find(male=> male.age==20);
+console.log("the person is:",newmale);
+
