@@ -64,8 +64,17 @@
 
 
 // find method. it will search in array and find desired item according to our condition.
-const male= [{name:'ali', age:20}, {name:'ahsan', age:'24'}, {name:'furqan', age:'22'}, {name:'mana', age:'25'}, 
-{name:'zulqarnain', age:'29'}];
-var newmale= male.find(male=> male.age==20);
-console.log("the person is:",newmale);
+// const male= [{name:'ali', age:20}, {name:'ahsan', age:'24'}, {name:'furqan', age:'22'}, {name:'mana', age:'25'}, 
+// {name:'zulqarnain', age:'29'}];
+// var newmale= male.find(male=> male.age==20);
+// console.log("the person is:",newmale);
+
+
+
+// filter method. it filters elements from array based on condition.
+const people= [{name:'jan', age:'10'}, {name:'micheal', age:'18'}, {name:'jack', age:'20'}, 
+{name:'david', age:'18'},]
+
+var newpeople= people.filter(people=> people.age!=18);
+console.log("people are:", newpeople);
 

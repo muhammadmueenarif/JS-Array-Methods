@@ -27,5 +27,9 @@ take example. if we have array of users with their name and age, we can get age 
 
 2 loop method is find method. it will search for each element in array and find the element that we need. 
 for example find person from array with age 20. 
- 
+
+Next is filter method. it will filter items from array according to condition. it is mostly used in js. 
+search bar in website use filter method. we can filter items of specific type like age=22 and then delete these filtered items. 
+
+
 
