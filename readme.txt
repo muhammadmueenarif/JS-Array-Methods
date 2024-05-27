@@ -38,7 +38,7 @@ Map method. it will loop in each item of array just like foreach. we can create 
 we can also pass index with array like array.map(arrayname, index)
 
 
-sort array. it will sort data by any attribute like name, age etc., 
+sort method. it will sort data by any attribute like name, age etc., 
 const students=[{name:'raza', age:'14'}, {name:'ali', age:'17'},{name:'hassan', age:'12'},
     {name:'ahmed', age:'20'},{name:'afaq', age:'13'},{name:'bilal', age:'12'},{name:'mohsin', age:'10'}];
 
@@ -60,4 +60,9 @@ this is ternary operator that can be used at the place of single if else stateme
 written and after : false result is written. we can reverse the sort order it by reversing the condition. 
 
 console.log('sorted students are:', students);
+
+
+next is reverse method. it reverses the array. it changes the given array and store new reversed array.
+
+
 
